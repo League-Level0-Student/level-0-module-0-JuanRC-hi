@@ -27,16 +27,21 @@ String A = JOptionPane.showInputDialog("what's something awesome?");
 	JOptionPane.showMessageDialog(null, "It's awesome");
 	}
 		// 6. If your variable is  1
-	
+	if (random== 1){
 			// -- tell the user whatever they entered is ok.
-	
+	JOptionPane.showMessageDialog(null,"It's ok");
+	}
 		// 7. If your variable is  2
-	
+if (random== 2){
 			// -- tell the user whatever they entered is boring.
-	
-		// 8. If your variable is  3
+	JOptionPane.showMessageDialog(null,"It's boring");
+}
+	// 8. If your variable is  3
+	if (random== 3){
+		JOptionPane.showMessageDialog(null, "It's trash");
+	}
 	
 			// -- invent your own message to give to the user (be nice).
 
-}
-}
+
+}}
